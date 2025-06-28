@@ -92,7 +92,7 @@ class _LoginState extends State<Login> {
                       style: TextStyle(fontSize: 16, color: Colors.white),
                     ),
                     onTap: () {
-                      AppNavigator.pushNamed(context, Routes.signup);
+                      // AppNavigator.pushNamed(context, Routes.signup);
                     },
                   ),
                 ],

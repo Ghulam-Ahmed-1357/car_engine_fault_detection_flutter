@@ -25,7 +25,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
     // Example condition
     // bool isUserLoggedIn = false; // Replace this with your actual check
-    AppNavigator.pushNamed(context, Routes.signup);
+    AppNavigator.pushNamed(context, Routes.connectScreen);
     // if (isUserLoggedIn) {
     //   AppNavigator.pushNamed(context, Routes.home); // e.g., home screen route
     // } else {

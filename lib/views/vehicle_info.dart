@@ -170,7 +170,7 @@ class _VehicleInfoState extends State<VehicleInfo> {
                           ),
                         );
                       } else {
-                        AppNavigator.pushNamed(context, Routes.faultScreen);
+                        AppNavigator.pushNamed(context, Routes.home);
                       }
                     },
                     child: Container(

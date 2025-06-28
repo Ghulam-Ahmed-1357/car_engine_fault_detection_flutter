@@ -1,5 +1,7 @@
 import 'package:car_engine_fault_detection/navigation_service/app_pages.dart';
 import 'package:car_engine_fault_detection/navigation_service/routes.dart';
+// import 'package:car_engine_fault_detection/views/connect_screen.dart';
+import 'package:car_engine_fault_detection/views/home.dart';
 // import 'package:car_engine_fault_detection/views/home.dart';
 // import 'package:car_engine_fault_detection/authentication/login.dart';
 // import 'package:car_engine_fault_detection/authentication/signup.dart';
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: Routes.splash,
       routes: AppPages.getRoutes(),
-      // home: VehicleInfo(),
+      // home: HomeScreen(),
     );
   }
 }

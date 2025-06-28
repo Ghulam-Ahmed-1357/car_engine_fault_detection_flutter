@@ -1,5 +1,7 @@
 // import 'package:car_engine_fault_detection/authentication/login.dart';
 import 'package:car_engine_fault_detection/constants/app_colors.dart';
+import 'package:car_engine_fault_detection/navigation_service/app_navigator.dart';
+import 'package:car_engine_fault_detection/navigation_service/routes.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -285,7 +287,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                   ],
-                ),
+                ),                
               ],
             ),
           ),
