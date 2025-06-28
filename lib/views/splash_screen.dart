@@ -1,7 +1,4 @@
 import 'dart:async';
-
-// import 'package:car_engine_fault_detection/authentication/signup.dart';
-// import 'package:car_engine_fault_detection/constants/app_colors.dart';
 import 'package:car_engine_fault_detection/navigation_service/app_navigator.dart';
 import 'package:car_engine_fault_detection/navigation_service/routes.dart';
 import 'package:flutter/material.dart';
@@ -22,15 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   void startSplashTimer() async {
     await Future.delayed(Duration(seconds: 5));
-
-    // Example condition
-    // bool isUserLoggedIn = false; // Replace this with your actual check
     AppNavigator.pushNamed(context, Routes.connectScreen);
-    // if (isUserLoggedIn) {
-    //   AppNavigator.pushNamed(context, Routes.home); // e.g., home screen route
-    // } else {
-    //   AppNavigator.pushNamed(context, Routes.signup); // goes to signup
-    // }
   }
 
   @override
