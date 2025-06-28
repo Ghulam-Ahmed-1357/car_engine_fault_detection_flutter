@@ -1,4 +1,3 @@
-import 'package:car_engine_fault_detection/authentication/login.dart';
 import 'package:car_engine_fault_detection/navigation_service/routes.dart';
 import 'package:car_engine_fault_detection/views/connect_screen.dart';
 import 'package:car_engine_fault_detection/views/home.dart';
@@ -11,7 +10,6 @@ class AppPages {
     return {
       Routes.splash: (context) => const SplashScreen(),
       Routes.connectScreen: (context) => ConnectScreen(),
-      Routes.login: (context) => const Login(),
       Routes.home: (context) => const HomeScreen(),
       Routes.vehicleInfo: (context) => const VehicleInfo(),
     };
